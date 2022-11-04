@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    background-color: black;
+    width: 30%;
+    color: rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 1px;
+    margin-top: 30vh;
+}
+
+.login input{
+    background-color: rgb(39, 39, 39);
+    border: 0px;
+    color: white;
+}
+
+header{
+    background-color: black;
+    color: rgb(180, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header div {
+    margin-top: 30px;
+    color: rgb(192, 190, 190);
+}
+
+header a{
+    color: rgb(192, 190, 190);
+    margin-left: 10px;
+}
+
+A:link {text-decoration: none }
+A:hover {text-decoration: none }
+A:visited {text-decoration: none }
+
+.fruitForm{
+    margin: 2pc;
+}
+
+#compra{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.compraForm {
+    border: 3px dotted grey;
+    width: 25%;
+    padding: 10px;
+}
+
+table{
+    margin-top: 3pc;
+    width: 85%;
+    border: 1px solid black;
+    background-color: #000;
+    margin-bottom: 3pc;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    background-color: white;
+}
+
+#fecha{
+    width: 10pc;
+}
+
+.none{
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.download{
+    width: 60px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
